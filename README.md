@@ -1,5 +1,5 @@
 # Flexbox Excercise
-## Uploaded file processed by parcel bundler
+## Note : Uploaded file processed by parcel bundler
 
-Final image of design :
+ Design :
 ![alt text](https://github.com/ProgFadi/flexbox/blob/master/flexbox.PNG "Links")
