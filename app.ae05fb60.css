@@ -1,0 +1,114 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 200px;
+    height: 100px;;
+}
+
+#content{
+display: flex;
+
+}
+
+#recentList_links
+{
+  flex-grow: 2;
+  background-color:white;
+  
+}
+
+
+#mostviewed{
+    flex-grow : 1;
+    flex-basis: 800px;
+
+    max-height: 200px;
+    
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    
+}
+#recentList_links article{
+    display: flex;
+    margin-top: 25px;
+}
+
+
+#recentList_links article h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#recentList_links article p{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    opacity: 0.5px;
+
+}
+
+#recentList_links article time{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   color: cornflowerblue;
+  
+
+}
+
+#recentList_links article div:nth-child(2)
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+#heading-list-title{
+    color:gray;
+    opacity: 0.8;
+    margin: 5px 5px 5px 0px;
+}
+#mostvisited-title{
+    color:gray;
+    opacity: 0.8;
+    margin: 5px 5px 5px 0px;
+}
+
+#mostviewed article{
+    position: relative;
+  display: flex;
+  margin-top: 25px;
+  
+}
+#mostviewed article img{
+    width: 100%;
+    filter: brightness(50%);
+}
+
+#mostviewed article time{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin:5px;
+    color: white;
+    
+  }
+  #mostviewed article div{
+      color: white;
+      margin: 5px;
+   
+position: absolute;
+bottom: 0px;
+left: 0px;
+  
+}
+#mostviewed article div h3{
+    margin: 5px;
+}
+#mostviewed article div p{
+    margin: 5px;
+}
