@@ -1,4 +1,4 @@
-# Flexbox Excercise
+# Flexbox Exercise
 ## Note : Uploaded file processed by parcel bundler
 
  Design :
